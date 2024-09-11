@@ -1,0 +1,33 @@
+<!-- Here i am thinking to add the drop-down button and hiding navbar for responsiveness as , i wants to make the task tough -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <!-- Here i gave the same property as id and for as same name so when-ever we click the image i will blink the check-box -->
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" id="check">
+            <img src="white.png" alt="Website is not supportable for your phone" id="hamburger">
+        </label>
+        <img src="pngwing.com.png" height="70px" width="70px" alt="Unable to load Image" class="logo">
+        <ul id="first-unordered-list">
+            <li class="active">Home</li>
+            <li>About</li>
+            <li class="language">Languages <img src="drop-down-symbol-main.png" id="drop-down-img" alt="">
+                <ul class="drop-down-css">
+                    <li>Python</li>
+                    <li>Java-Script</li>
+                    <li>Web - Developer</li>
+                </ul>
+            </li>
+            <li>Services</li>
+            <li>Feedback</li>
+        </ul>
+    </nav>
+</body>
+</html>
